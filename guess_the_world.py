@@ -28,7 +28,7 @@ while attempts > 0:
     show_word = [letter if letter in guessed else "_" for letter in word]
     print(" ".join(show_word))
 
-    # Checks to see if the word was completed.
+    # Checks to see if the word was completed
     if "_" not in show_word:
         print("Great job, you guessed the word")
         break
