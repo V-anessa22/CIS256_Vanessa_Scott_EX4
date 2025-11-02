@@ -11,7 +11,7 @@ attempts = 6
 print("Guess the Word")
 print("_" * len(word))
 
-# Keeps going until the word is guessed or there are no more attempts.
+# Keeps going until the word is guessed or there are no more attempts
 while attempts > 0:
     guess = input("Enter a letter: ").lower()
 
